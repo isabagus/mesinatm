@@ -1,26 +1,27 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/win7-x86": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    ".NETCoreApp,Version=v8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\FUJITSU\\.nuget\\packages\\": {}
+    "C:\\Users\\asus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mari Ngoding\\belajar arthur\\ATM\\ATM\\ATM.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\ATM\\mesinatm\\ATM\\ATM.csproj",
       "projectName": "ATM",
-      "projectPath": "D:\\Mari Ngoding\\belajar arthur\\ATM\\ATM\\ATM.csproj",
-      "packagesPath": "C:\\Users\\FUJITSU\\.nuget\\packages\\",
-      "outputPath": "D:\\Mari Ngoding\\belajar arthur\\ATM\\ATM\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\ATM\\mesinatm\\ATM\\ATM.csproj",
+      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\ATM\\mesinatm\\ATM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FUJITSU\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -30,7 +31,6 @@
       },
       "frameworks": {
         "net8.0": {
-          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -38,36 +38,16 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net8.0": {
-        "targetAlias": "net8.0",
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48",
-          "net481"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
       }
     }
   }
